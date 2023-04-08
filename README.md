@@ -1,10 +1,10 @@
 
-# Medical Appointments Exploratory Data Analysis
+# Medical Appointments Exploratory Data Analysis ⚕️
 
 This project is aimed to understand why people who receive treatment instructions do not show up at the next appointment time. In other words, what are the contributing factors for missing appointments?
 
 
-## Project Objectives
+## 📝 Project Objectives
 
 - What is the ratio of people who miss appointments to those who don’t?
 
@@ -14,7 +14,7 @@ This project is aimed to understand why people who receive treatment instruction
 
 This list is not complete — you can extend it with additional questions that come to your mind during the analysis
 
-## Features
+## 🔖 Features
 | Column  | Description |
 | ------------- | ------------- |
 | PatientID  | a unique identifier of a patient  |
@@ -32,7 +32,7 @@ This list is not complete — you can extend it with additional questions that c
 | SMS_received | Has the patient received an SMS reminder? |
 | No_show | Has the patient decided not to show up? |
 
-## Workspace Setup
+## Workspace Setup 👨‍💻
 
 ```python
 import numpy as np #linear algebra
@@ -43,32 +43,32 @@ import plotly.graph_objs as go
 import seaborn as sns
 ```
 
-## Reading in the data
+## 📥 Reading in the data
 ```
 no_df = pd.read_csv("KaggleV2-May-2016.csv", parse_dates=["ScheduledDay", "AppointmentDay"])
 ```
-## Documentation
+## 🗄️ Documentation
 
 [Dataset souce](https://www.kaggle.com/joniarroba/noshowappointments)
 
 [Project source](https://medium.com/towards-data-science/exploratory-analysis-python-kaggle-data-b0afb6ec1788)
 
 
-## Screenshots
+## 🖼️ Screenshots
 
-#### Interquartile Ranges of Age for Patients Who Showed Up and Did Not Show Up
+#### Interquartile Ranges of Age for Patients Who Showed Up and Did Not Show Up 🚻
 ![Interquartile Ranges of Age for Patients Who Showed Up and Did Not Show Up](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_195320_localhost.jpeg)
 
 
-#### Percentage of Patients Attendance on Appointment Date
+#### Percentage of Patients Attendance on Appointment Date 📅
 ![Percentage of Patients Attendance on Appointment Date](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_195444_localhost.jpeg)
 
 
-#### Percentage of Patients by Gender
+#### Percentage of Patients by Gender 🚻
 ![Percentage of Patients by Gender](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_19546_localhost.jpeg)
 
 
-#### Number of Times Patients were Absent (Weekdays)
+#### Number of Times Patients were Absent (Weekdays) 📅
 ![Number of Times Patients were Absent (Weekdays)](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_22826_localhost.jpeg)
 
 
@@ -81,7 +81,7 @@ no_df = pd.read_csv("KaggleV2-May-2016.csv", parse_dates=["ScheduledDay", "Appoi
 * Python
 
 
-## Contributing
+## Contributing ➕
 
 Contributions are always welcome!
 
@@ -90,7 +90,7 @@ See `contributing.md` for ways to get started.
 Please adhere to this project's `code of conduct`.
 
 
-## Authors
+## Authors ✍️
 
 - [@Psalmykrane](https://www.github.com/Psalmykrane)
 
