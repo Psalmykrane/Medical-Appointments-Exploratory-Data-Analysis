@@ -54,6 +54,33 @@ no_df = pd.read_csv("KaggleV2-May-2016.csv", parse_dates=["ScheduledDay", "Appoi
 [Project source](https://medium.com/towards-data-science/exploratory-analysis-python-kaggle-data-b0afb6ec1788)
 
 
+## Screenshots
+
+#### Interquartile Ranges of Age for Patients Who Showed Up and Did Not Show Up
+![Interquartile Ranges of Age for Patients Who Showed Up and Did Not Show Up](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_195320_localhost.jpeg)
+
+
+#### Percentage of Patients Attendance on Appointment Date
+![Percentage of Patients Attendance on Appointment Date](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_195444_localhost.jpeg)
+
+
+#### Percentage of Patients by Gender
+![Percentage of Patients by Gender](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_19546_localhost.jpeg)
+
+
+#### Number of Times Patients were Absent (Weekdays)
+![Number of Times Patients were Absent (Weekdays)](https://github.com/Psalmykrane/Medical-Appointments-Exploratory-Data-Analysis/blob/main/Medical%20health%20file/images/Web%20capture_8-4-2023_22826_localhost.jpeg)
+
+
+## 🛠 Skills
+* Data cleaning (pandas)
+* Data exploration (pandas, numpy, matplotlib, seaborn)
+* Data visualization (matplotlib, seaborn)
+* Data Manipulation (pandas, numpy)
+* Critical thinking
+* Python
+
+
 ## Contributing
 
 Contributions are always welcome!
@@ -66,18 +93,4 @@ Please adhere to this project's `code of conduct`.
 ## Authors
 
 - [@Psalmykrane](https://www.github.com/Psalmykrane)
-
-
-## 🛠 Skills
-* Data cleaning (pandas)
-* Data exploration (pandas, numpy, matplotlib, seaborn)
-* Data visualization (matplotlib, seaborn)
-* Data Manipulation (pandas, numpy)
-* Critical thinking
-* Python
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
